@@ -1,7 +1,7 @@
 new Swiper('.main-slider-container', {
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.main-button-next',
+        prevEl: '.main-button-prev',
     },
 
     pagination: {
@@ -20,8 +20,8 @@ speed:2000,
 
 new Swiper('.reviews-slider-container', {
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.reviews-button-next',
+        prevEl: '.reviews-button-prev',
     },
 
     simulateTouch: false,
